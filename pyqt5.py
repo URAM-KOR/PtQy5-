@@ -10,7 +10,7 @@ class Exam(QWidget):
     def initUI(self):
         btn = QPushButton("눌러", self)
         btn.resize(btn.sizeHint())
-        btn.setToolTip("기능없음")
+        btn.setToolTip("툴팁:기능없음")
         btn.move(25, 30)
         btn.clicked.connect(QCoreApplication.instance().quit)
 
